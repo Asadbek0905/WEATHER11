@@ -1,36 +1,40 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: url("https://wallup.net/wp-content/uploads/2017/03/15/157021-beach-sky-sea-water-summer.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.card1{
+.card1 {
     width: 100%;
     height: 500px;
     /* border: 1px solid; */
-    backdrop-filter: blur(4px); /* Размываем фон */
-    background: rgba(255,255,255,0.4);
+    backdrop-filter: blur(4px);
+    /* Размываем фон */
+    background: rgba(255, 255, 255, 0.4);
     margin-top: 100px;
     border-radius: 30px;
 }
-.head{
+
+.head {
     text-align: center;
     padding-top: 100px;
     color: #fff;
-    
+
 }
-.gradus{
+
+.gradus {
     margin-left: 100px;
     padding-top: 40px;
     color: #fff;
 }
-.inp{
+
+.inp {
     width: 450px;
     height: 50px;
     padding-left: 10px;
@@ -42,19 +46,23 @@ body{
     border: none;
     color: rgb(0, 4, 255);
 }
-.city{
+
+.city {
     margin-left: 50px;
     padding-top: 40px;
     color: #fff;
 
 }
-.div{
+
+.div {
     display: flex;
 }
-.btndiv{
+
+.btndiv {
     display: flex;
 }
-.btn1{
+
+.btn1 {
     width: 100px;
     height: 50px;
     margin-top: 40px;
@@ -67,12 +75,13 @@ body{
 }
 
 
-@media (max-width: 575px){
+@media (max-width: 575px) {
     .head {
         text-align: center;
         padding-top: 100px;
         font-size: 55px;
     }
+
     .inp {
         width: 247px;
         height: 50px;
@@ -84,14 +93,20 @@ body{
         border-radius: 15px;
         border: 1px solid red;
     }
+
     .gradus {
-        margin-left: 50px;
-        padding-top: 67px;
+        margin-left: -135px;
+        padding-top: 80px;
         font-size: 55px;
     }
+
     .city {
-        margin-left: 35px;
-        padding-top: 74px;
-        font-size: 47px;
+        margin-left: 88px;
+        padding-top: 28px;
+        font-size: 34px;
+    }
+
+    body {
+        background: url(https://i.pinimg.com/736x/d0/0a/f7/d00af7877c7f738aecca4e30e931894c.jpg);
     }
 }
