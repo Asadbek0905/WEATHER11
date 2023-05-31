@@ -4,33 +4,49 @@
     box-sizing: border-box;
 }
 
+body{
+    background: url("https://wallup.net/wp-content/uploads/2017/03/15/157021-beach-sky-sea-water-summer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .card1{
     width: 100%;
-    height: 600px;
-    border: 1px solid;
+    height: 500px;
+    /* border: 1px solid; */
+    backdrop-filter: blur(4px); /* Размываем фон */
+    background: rgba(255,255,255,0.4);
+    margin-top: 100px;
+    border-radius: 30px;
 }
 .head{
     text-align: center;
     padding-top: 100px;
+    color: #fff;
+    
 }
 .gradus{
-    margin-left: 200px;
+    margin-left: 100px;
     padding-top: 40px;
+    color: #fff;
 }
 .inp{
     width: 450px;
     height: 50px;
     padding-left: 10px;
     outline: none;
-    margin-left: 40px;
+    margin-left: 10px;
     margin-top: 40px;
     font-size: 20px;
     border-radius: 15px;
-    border: 1px solid red;
+    border: none;
+    color: rgb(0, 4, 255);
 }
 .city{
-    margin-left: 100px;
+    margin-left: 50px;
     padding-top: 40px;
+    color: #fff;
+
 }
 .div{
     display: flex;
@@ -46,6 +62,8 @@
     background: #64ff41;
     color: #fff;
     border-radius: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 
